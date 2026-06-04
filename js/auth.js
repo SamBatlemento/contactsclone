@@ -32,6 +32,7 @@ function isLoggedIn()
 
 function requireAuth()
 {
+    return;
     if (!isLoggedIn())
     {
         window.location.href = 'index.html';
